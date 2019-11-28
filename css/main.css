@@ -24,7 +24,7 @@
   min-height: 500px;
   width: 100%;
   background: #161400;
-  background-color: rgba(90,0,20,0.5); /* tint */
+  background-color: rgba(90,0,0,0.35); /* tint */
   background-blend-mode: multiply;
   background-size: cover !important;
   -webkit-background-size: cover !important;
@@ -41,11 +41,11 @@
 
 /*changes highlight colors to purple */
  ::-moz-selection { /* Code for Firefox */
-     background: rgb(107, 164, 255); /* #fed136; */
+     background: rgba(90,0,0,0.35); /* #fed136; */
  }
 
  ::selection {
-     background: rgb(107, 164, 255); /* #fed136; */
+     background: rgba(90,0,0,0.35); /* #fed136; */
  }
 
 body {
@@ -114,14 +114,14 @@ h6 {
   margin-right: auto;
 }
 .bg-light-gray {
-  background-color: rgb(107, 164, 255); /* #fed136; - was yellow */
+  background-color: rgba(90,0,0,0.35); /* was gray, I changed it to light pink but the name is still grey*/
 }
 .bg-darkest-gray {
   background-color: #222222;
 }
 .btn-primary {
   color: white;
-  background-color: rgb(107, 164, 255); /* #fed136; */;
+  background-color:rgba(90,0,0,0.35); /* #fed136; */;
   border-color: #fed136;
   font-family: 'Lora', serif;
   font-weight: 700;
@@ -132,7 +132,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: rgb(107, 164, 255); /* #fed136; */;
+  background-color: rgba(90,0,0,0.35); /* #fed136; */;
   border-color: #fed136;
 }
 .btn-primary:active,
@@ -155,7 +155,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: rgb(107, 164, 255); /* #fed136; */;
+  background-color: rgba(90,0,0,0.35); /* #fed136; */;
   border-color: #fed136;
 }
 .btn-primary .badge {
@@ -178,7 +178,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
   font-family: 'Lora', serif;
-  background-color: rgb(107, 164, 255); /* #fed136; */;
+  background-color: rgba(90,0,0,0.35); /* #fed136; */;
   color: white;
   text-transform: uppercase;
   font-weight: 700;
@@ -193,7 +193,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: rgb(107, 164, 255); /* #fed136; */
+  background-color: rgba(90,0,0,0.35); /* #fed136; */
 
   /*eases button hover transtion */
   transition: all ease 0.3s;
