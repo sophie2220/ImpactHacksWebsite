@@ -230,7 +230,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .btn-med {
   font-family: 'Lora', serif;
-  background-color: rgb(107, 164, 255); /* #fed136; */;
+  background-color: rgba(90,0,0,0.35) /* #fed136; */;
   color: white;
   text-transform: uppercase;
   font-weight: 700;
@@ -245,7 +245,7 @@ fieldset[disabled] .btn-xl.active {
 .btn-med.active,
 .open .dropdown-toggle.btn-med {
   color: white;
-  background-color: rgb(107, 164, 255); /* #fed136; */;
+  background-color: rgba(90,0,0,0.35); /* #fed136; */;
 
   /*eases button hover transtion */
   transition: all ease 0.3s;
@@ -273,7 +273,7 @@ fieldset[disabled] .btn-med:active,
 .btn-med.disabled.active,
 .btn-med[disabled].active,
 fieldset[disabled] .btn-med.active {
-  background-color: rgb(107, 164, 255); /* #fed136; */;
+  background-color: rgba(90,0,0,0.35); /* #fed136; */;
   border-color: #fed136;
 }
 .btn-med .badge {
@@ -300,7 +300,7 @@ fieldset[disabled] .btn-med.active {
 }
 .navbar-custom .navbar-toggle {
   font-family: 'DINPro','Helvetica', 'sans-serif' ;
-  background-color: rgb(107, 164, 255); /* #fed136; */;
+  background-color: rgba(90,0,0,0.35); /* #fed136; */;
   border-color: #fed136;
   text-transform: uppercase;
   color: white;
@@ -308,7 +308,7 @@ fieldset[disabled] .btn-med.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: rgb(107, 164, 255); /* #fed136; */;
+  background-color: rgba(90,0,0,0.35); /* #fed136; */;
 }
 .navbar-custom .nav li a {
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
@@ -326,7 +326,7 @@ fieldset[disabled] .btn-med.active {
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background: rgb(107, 164, 255); /* #fed136; */
+  background: rgba(90,0,0,0.35); /* #fed136; */
   background-size: 400% 400%;
 }
 
@@ -535,7 +535,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: rgb(107, 164, 255); /* #fed136; */;
+  background-color: rgba(90,0,0,0.35); /* #fed136; */;
   background-position: center;
   background-repeat: no-repeat;
   padding: 30px 0;
@@ -751,7 +751,7 @@ body {
 }
 
 .panel-heading-purple:hover {
-    background: rgb(107, 164, 255); /* #fed136; */
+    background: rgba(90,0,0,0.35); /* #fed136; */
     color: white;
     transition: all ease 0.3s;
     -webkit-transition: all ease 0.3s;
